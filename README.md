@@ -1,6 +1,12 @@
 # Robotic Tutoring System
 
 ### Captain's Log
+#### 18/06/2026
+Looking through the Hugging Face Reachy Mini library and making notes on apps with features that could be relevant to my project. I will be going through their code to see how I could take inspiration from and build on what's already out there.
+Currently, I'm most interested in the [Baby Reachy Mini Companion](https://huggingface.co/spaces/ravediamond/baby-reachy-mini-companion) - for its in-built safety features, danger detection (which, for my uses, could be used to analyse sentiment), and interactive teaching - and the [Reachy Mini Conversation App](https://huggingface.co/spaces/pollen-robotics/reachy_mini_conversation_app) - once again for its visual awareness and natural conversational capabilities.
+
+As in a real-life setting this robot would be deployed to help students (most likely including children and teens), it is crucial to me that I implement the necessary AI safeguards. I believe doing a thorough analysis of the pre-existing apps' code will help me fill in the gaps of what I found in my literature review and what I thought would be appropriate/necessary to implement.
+
 #### 17/06/2026
 Working on setting up the virtual simulation environment today. Dividing my day into two parts: 
 1) Writing some demo code to see how the virtual simulation robot behaves, testing key behaviours
