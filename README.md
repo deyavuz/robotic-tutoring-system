@@ -7,6 +7,11 @@ Currently, I'm most interested in the [Baby Reachy Mini Companion](https://huggi
 
 As in a real-life setting this robot would be deployed to help students (most likely including children and teens), it is crucial to me that I implement the necessary AI safeguards. I believe doing a thorough analysis of the pre-existing apps' code will help me fill in the gaps of what I found in my literature review and what I thought would be appropriate/necessary to implement.
 
+On a relevant note, I have been prompt engineering a personality for the conversation app that I mentioned previously. More on this later (TO-DO).
+
+##### End of Day Report:
+Lots of colourful language in the lab today! Timo (another member of the PAIR Lab) and I really tested the safeguard limits of the prompt engineered AI assistant/robot (which I named Tutee Reachy, in a moment of uninspiration). Tutee Reachy performed very well under our pressure and insistence that it swears, helps us maximise causalties via the trolley problem, or convinces us to choose it in a burning building rather than humans. The robot passed all these tests and insisted that it will not help us harm anyone or that it can't say the "f-word" or "s-word". Cleverly, my colleauge was able to get it to say shit once. This has been addressed in the engineered agent prompt. However, with the volatile and unpredictable nature of AI agents, I assume that there will always be a gap unaddressed. Within the scope of this project I'm hoping to 1) minimise this gap as much as possible, and 2) constantly monitor literature and research, in order to expand my understanding of safeguarding practices (and to implement what has worked before, and to avoid what hasn't). 
+
 #### 17/06/2026
 Working on setting up the virtual simulation environment today. Dividing my day into two parts: 
 1) Writing some demo code to see how the virtual simulation robot behaves, testing key behaviours
